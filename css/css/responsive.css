@@ -1,0 +1,480 @@
+/*====================================
+TABLETS
+====================================*/
+
+@media (max-width:1024px){
+
+.container{
+width:92%;
+}
+
+.hero-wrapper{
+flex-direction:column;
+text-align:center;
+gap:50px;
+}
+
+.hero-left img{
+width:180px;
+}
+
+.hero-right h1{
+font-size:52px;
+}
+
+.tagline{
+font-size:24px;
+}
+
+.hero-buttons{
+justify-content:center;
+}
+
+.about-wrapper{
+flex-direction:column;
+text-align:center;
+}
+
+.services-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.brands-grid{
+grid-template-columns:1fr;
+}
+
+.process{
+grid-template-columns:repeat(2,1fr);
+}
+
+.contact-wrapper{
+grid-template-columns:1fr;
+}
+
+}
+
+/*====================================
+MOBILE
+====================================*/
+
+@media (max-width:768px){
+
+header{
+padding:15px 0;
+}
+
+.navbar{
+flex-wrap:wrap;
+}
+
+.menu-btn{
+display:block;
+}
+
+nav{
+
+display:none;
+
+flex-direction:column;
+
+width:100%;
+
+margin-top:20px;
+
+background:#ff9800;
+
+padding:20px;
+
+border-radius:12px;
+
+}
+
+nav.active{
+display:flex;
+}
+
+nav a{
+
+padding:12px 0;
+
+margin:0;
+
+text-align:center;
+
+font-size:18px;
+
+}
+
+/* HERO */
+
+.hero{
+
+padding:45px 0;
+
+}
+
+.hero-wrapper{
+
+gap:30px;
+
+}
+
+.hero-left img{
+
+width:140px;
+
+}
+
+.hero-left h3{
+
+font-size:18px;
+
+}
+
+.hero-right h1{
+
+font-size:34px;
+
+line-height:1.25;
+
+}
+
+.tagline{
+
+font-size:18px;
+
+}
+
+.hero-right p{
+
+font-size:16px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn{
+
+width:100%;
+
+max-width:280px;
+
+justify-content:center;
+
+}
+
+/* ABOUT */
+
+.about-content h3{
+
+font-size:30px;
+
+}
+
+.about-content p{
+
+font-size:16px;
+
+}
+
+.about-image img{
+
+width:280px;
+
+}
+
+/* SECTION */
+
+section{
+
+padding:60px 0;
+
+}
+
+.section-heading{
+
+margin-bottom:40px;
+
+}
+
+.section-heading h2{
+
+font-size:34px;
+
+}
+
+.section-heading p{
+
+font-size:17px;
+
+}
+
+/* SERVICES */
+
+.services-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.service-card{
+
+padding:30px 20px;
+
+}
+
+.service-card h3{
+
+font-size:24px;
+
+}
+
+.service-card p{
+
+font-size:16px;
+
+}
+
+/* COLLAB */
+
+.collab-card{
+
+padding:30px 20px;
+
+}
+
+.collab-item h3{
+
+font-size:24px;
+
+}
+
+.collab-item a{
+
+font-size:18px;
+
+}
+
+/* BRANDS */
+
+.brand-card{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.brand-left{
+
+width:100%;
+
+}
+
+.brand-left h3{
+
+font-size:30px;
+
+}
+
+.brand-left h4{
+
+font-size:20px;
+
+}
+
+.brand-left p{
+
+font-size:16px;
+
+}
+
+.line{
+
+margin:15px auto;
+
+}
+
+.brand-logo{
+
+margin-top:25px;
+
+width:100%;
+
+}
+
+.brand-logo img{
+
+width:100px;
+
+}
+
+/* PROCESS */
+
+.process{
+
+grid-template-columns:1fr;
+
+}
+
+.step{
+
+padding:30px 20px;
+
+}
+
+.step h3{
+
+font-size:24px;
+
+}
+
+.step p{
+
+font-size:16px;
+
+}
+
+/* CONTACT */
+
+.contact-left{
+
+text-align:center;
+
+}
+
+.contact-left h3{
+
+font-size:30px;
+
+}
+
+.contact-left>p{
+
+font-size:16px;
+
+}
+
+.info-box{
+
+flex-direction:column;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+.contact-right{
+
+padding:25px;
+
+}
+
+.contact-right button{
+
+font-size:18px;
+
+}
+
+/* FOOTER */
+
+.footer-logo{
+
+flex-direction:column;
+
+}
+
+.footer-logo img{
+
+width:70px;
+
+}
+
+.footer-logo h3{
+
+font-size:24px;
+
+}
+
+.footer-social{
+
+gap:12px;
+
+}
+
+.footer-social a{
+
+width:45px;
+
+height:45px;
+
+font-size:18px;
+
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+
+right:15px;
+
+bottom:15px;
+
+padding:14px 18px;
+
+font-size:15px;
+
+}
+
+}
+
+/*====================================
+SMALL PHONES
+====================================*/
+
+@media (max-width:480px){
+
+.hero-right h1{
+
+font-size:28px;
+
+}
+
+.hero-right p{
+
+font-size:15px;
+
+}
+
+.section-heading h2{
+
+font-size:28px;
+
+}
+
+.logo img{
+
+width:55px;
+
+}
+
+.logo-text h2{
+
+font-size:24px;
+
+}
+
+.logo-text span{
+
+font-size:12px;
+
+}
+
+}
